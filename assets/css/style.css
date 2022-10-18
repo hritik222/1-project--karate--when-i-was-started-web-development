@@ -1,0 +1,101 @@
+/*reset css*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.backgroundImg {
+    color: white;
+    background: url('../images/karate.webp');
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.logo img {
+    width: 100px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 5px 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.nav li a:hover, .nav li a.active {
+    color: #f98f0c;
+}
+
+.button {
+    background-color: #df6e27;
+    color: white;
+    border: #e68a37 solid 2px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 0px 10px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: #df864f;
+}
+/* Header end here */
+
+.contentbox {
+    border: 2px solid white;
+    display: inline-block;
+    margin: 100px auto;
+    width: 100%;
+    border-radius: 7px;
+    padding: 30px 0px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+input[type="text"],input[type="email"] {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    font-size: 1em;
+}
+
+.btn1 {
+    background-color: #df6e27;
+    color: white;
+    border: #e68a37 solid 2px;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    width: 235px;
+    padding: 5px 0px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.btn1:hover {
+    background-color: #df864f;
+}

@@ -1,58 +1,55 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> Karate.com </title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/js/jquery-3.6.1.js">
+		<link rel="stylesheet" href="assets/js/main.js">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 	</head>
 
 	<body>
-		<header>
-			<!--this is left box for img -->
-			<div class="left"> <img src="kid.png">
-				<div> KARATE </div>
+		<section class="backgroundImg">
+			<div class="container">
+				<div class="header">
+					<!--this is left box for logo img -->
+					<div class="logo">
+						<img src="assets/images/kid.png" alt="Logo" />
+						<!-- <div> KARATE </div> no need to add -->
+					</div>
+					<!--this is mid box for home -->
+					<div class="mid">
+						<ul class="nav">
+							<li> <a href="#" class="active"> Home </a> </li>
+							<li> <a href="#"> Service</a> </li>
+							<li> <a href="#"> Contact us</a> </li>
+							<li> <a href="#"> About us</a> </li>
+						</ul>
+					</div>
+					<div class="right">
+						<button class="button"> Call us </button>
+						<button class="button"> Email us </button>
+					</div>
+				</div>
+				<!-- Header end here -->
+				<div class="contentbox">
+					<h1> Join Us Now </h1>
+					<form action=".locationphp">
+						<input type="text" name="" placeholder=" Enter Your Name">
+						<input type="text" name="" placeholder=" Enter Your Gender">
+						<input type="text" name="" placeholder=" Enter Your DOB ">
+						<input type="text" name="" placeholder=" Enter Your Phone Number">
+						<input type="email" name="" placeholder=" Enter Your Email">
+						<button class="btn1"> submit </button>
+					</form>  
+				</div>
 			</div>
-			<!--this is mid box for home -->
-			<div class="mid">
-				<ul class="nav">
-					<li> <a href="#" class="active"> Home </a>
-					<li>
-					<li> <a href="#"> Service</a>
-					<li>
-					<li> <a href="#"> Contact us</a>
-					<li>
-					<li> <a href="#"> About us</a>
-					<li>
-			</div>
-			<div class="right">
-				<button class="btn"> Email us </button>
-				<button class="btn"> Call us </button>
-			</div>
-		</header>
-		<div class="box">
-			<h1> Join Us Now </h1>
-			<form action=".locationphp">
-				<div class="form">
-					<input type="text" name="" placeholder=" Enter Your Name">
-				</div>
-				<div class="form">
-					<input type="text" name="" placeholder=" Enter Your Gender">
-				</div>
-				<div class="form">
-					<input type="text" name="" placeholder=" Enter Your DOB ">
-				</div>
-				<div class="form">
-					<input type="text" name="" placeholder=" Enter Your Phone Number">
-				</div>
-				<div class="form">
-					<input type="email" name="" placeholder=" Enter Your Email">
-				</div>
-				<button class="btn1"> submit </button>
-			</form>
-		</div>
-
-
+		</section>
 	</body>
 
 </html>
