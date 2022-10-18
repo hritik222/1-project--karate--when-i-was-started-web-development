@@ -1,0 +1,150 @@
+/*reset css*/
+
+body {
+    color: white;
+    background: url('karate.webp');
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    background-size: contain;
+}
+
+.left {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    display: inline-block;
+}
+
+.left img {
+    width: 130px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.mid {
+    width: 50%;
+    margin: 30px auto;
+    display: block;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 23px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    padding: 4px 28px;
+    color: white;
+
+}
+
+.nav li a:hover,
+.nav li a.active {
+    color: #e3ca66;
+    text-decoration: underline;
+
+}
+
+.right {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    display: inline-block;
+
+}
+
+.btn {
+    background-color: #856b48;
+    color: white;
+    border: #dfcfa2 solid 2px;
+    border-radius: 20px;
+    padding: 4px 14px;
+    margin: 3px 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+}
+
+.btn:hover {
+    background-color: #916737;
+
+}
+
+.box {
+    border: 2px solid white;
+    display: inline-block;
+    margin: 138px 228px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+
+.box button {
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    margin: 15px 3px;
+
+}
+
+
+.form {
+    padding: 4px 100px;
+    width: 33%;
+}
+
+
+
+.form input {
+    width: 150%;
+}
+
+
+.btn1 {
+    background-color: #856b48;
+    color: white;
+    border: #dfcfa2 solid 2px;
+    border-radius: 9px;
+    padding: 7px 85px;
+    margin: 22px 320px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+.btn:hover {
+    background-color: #916737;
+
+}
+
+
+
+.form input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 445px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 6px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
